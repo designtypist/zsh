@@ -42,13 +42,14 @@ In your favourite editor, open `.zshrc` configuration file found in the home dir
 ```
 plugins=(bundler docker dotenv git node npm ssh-agent)
 ```
-- Load the configuration file
-```
-source ~/.zshrc
-```
 
 2) ZSH themes
 - Go to the `zsh_themes' section (line 11)
 ```
 ZSH_THEME="apple"
+```
+
+- Load the configuration file
+```
+source ~/.zshrc
 ```
