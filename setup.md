@@ -17,7 +17,7 @@ zsh --version
 ```
 Changing from bash to zsh
 ```
-sh -s $(which zsh)
+chsh -s $(which zsh)
 ```
 Logout and login
 ```
