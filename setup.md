@@ -2,12 +2,14 @@
 
 1) ZSH Setup (Ubuntu and MacOS)
 Installating zsh
+[Ubuntu]
 ```
-sudo apt install zsh //Ubuntu
+sudo apt install zsh
 ```
 or
+[MacOS]
 ```
-brew install zsh //MacOS
+brew install zsh
 ```
 Checking if it is installed
 ```
@@ -36,18 +38,17 @@ Editing the configuration
 
 In your favourite editor, open `.zshrc` configuration file found in the home directory 
 1) ZSH plugins
-    - Go to the `plugins` section (line 71)
+- Go to the `plugins` section (line 71)
 ```
 plugins=(bundler docker dotenv git node npm ssh-agent)
 ```
-
-    - Load the configuration file
+- Load the configuration file
 ```
 source ~/.zshrc
 ```
 
 2) ZSH themes
-    - Go to the `zsh_themes' section (line 11)
+- Go to the `zsh_themes' section (line 11)
 ```
 ZSH_THEME="apple"
 ```
